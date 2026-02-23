@@ -1,5 +1,6 @@
 [tools]
 "npm:skills" = "latest"
+"npm:mdformat" = "latest"
 
 [task_config]
 dir = "{{config_root}}"
