@@ -1,0 +1,5 @@
+[tools]
+"npm:skills" = "latest"
+
+[task_config]
+dir = "{{config_root}}"

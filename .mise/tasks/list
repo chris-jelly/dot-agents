@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+#MISE description="List active and shelved skills"
+set -euo pipefail
+
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+RESET='\033[0m'
+
+echo -e "${GREEN}Active skills (skills/)${RESET}"
+active=$(find skills/ -mindepth 1 -maxdepth 1 ! -name '.gitkeep' -printf '%f\n' 2>/dev/null | sort)
+if [[ -z "$active" ]]; then
+  echo "  (none)"
+else
+  while IFS= read -r name; do
+    echo "  $name"
+  done <<< "$active"
+fi
+
+echo ""
+echo -e "${YELLOW}Shelved skills (shelf/)${RESET}"
+shelved=$(find shelf/ -mindepth 1 -maxdepth 1 ! -name '.gitkeep' -printf '%f\n' 2>/dev/null | sort)
+if [[ -z "$shelved" ]]; then
+  echo "  (none)"
+else
+  while IFS= read -r name; do
+    echo "  $name"
+  done <<< "$shelved"
+fi

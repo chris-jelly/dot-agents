@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#MISE description="Check markdown formatting (uvx mdformat --check)"
+set -euo pipefail
+
+uvx mdformat --check .

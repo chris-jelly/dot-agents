@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+#MISE description="Install all skills from a GitHub repo (e.g. mise run install owner/repo)"
+#MISE depends=["_require-clean"]
+set -euo pipefail
+
+if [[ $# -lt 1 ]]; then
+  echo "Usage: mise run install <owner/repo>" >&2
+  echo "Example: mise run install vercel/ai-sdk-skills" >&2
+  exit 1
+fi
+
+REPO="$1"
+AGENTS=("opencode" "codex")
+
+for agent in "${AGENTS[@]}"; do
+  echo "Installing skills from $REPO for $agent..."
+  skills add "$REPO" --agent "$agent" --global
+done
+
+# Respect shelf: remove any skills that are currently shelved
+for shelved in shelf/*/; do
+  [[ -d "$shelved" ]] || continue
+  name=$(basename "$shelved")
+  if [[ -d "skills/$name" ]]; then
+    echo "Removing shelved skill from active: $name"
+    rm -rf "skills/$name"
+  fi
+done
+
+echo "Done. Run 'mise run list' to see installed skills."

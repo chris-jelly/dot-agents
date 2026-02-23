@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#MISE description="Activate shelved skills (move from shelf/ to skills/)"
+#MISE depends=["_require-clean"]
+set -euo pipefail
+
+if [[ $# -lt 1 ]]; then
+  echo "Usage: mise run activate <skill> [skill...]" >&2
+  exit 1
+fi
+
+for name in "$@"; do
+  if [[ ! -d "shelf/$name" ]]; then
+    echo "Error: shelf/$name does not exist" >&2
+    exit 1
+  fi
+  mv "shelf/$name" "skills/$name"
+  echo "Activated: $name (shelf/ -> skills/)"
+done

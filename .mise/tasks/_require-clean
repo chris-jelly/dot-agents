@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#MISE description="Guard: abort if git working tree has uncommitted changes"
+#MISE hide=true
+set -euo pipefail
+
+if ! git diff --quiet || ! git diff --cached --quiet; then
+  echo "Error: uncommitted changes detected. Please commit or stash before proceeding." >&2
+  exit 1
+fi

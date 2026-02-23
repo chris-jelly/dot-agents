@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#MISE description="Deactivate skills (move from skills/ to shelf/)"
+#MISE depends=["_require-clean"]
+set -euo pipefail
+
+if [[ $# -lt 1 ]]; then
+  echo "Usage: mise run deactivate <skill> [skill...]" >&2
+  exit 1
+fi
+
+for name in "$@"; do
+  if [[ ! -d "skills/$name" ]]; then
+    echo "Error: skills/$name does not exist" >&2
+    exit 1
+  fi
+  mv "skills/$name" "shelf/$name"
+  echo "Deactivated: $name (skills/ -> shelf/)"
+done

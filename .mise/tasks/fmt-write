@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#MISE description="Format markdown files in-place (uvx mdformat)"
+set -euo pipefail
+
+uvx mdformat .
