@@ -63,6 +63,15 @@
       "skillFolderHash": "4dc94bd62efe7d80b4e33f09736be6a9733f307f",
       "installedAt": "2026-02-24T03:29:45.301Z",
       "updatedAt": "2026-02-24T03:29:45.301Z"
+    },
+    "mermaid-diagrams": {
+      "source": "softaworks/agent-toolkit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/softaworks/agent-toolkit.git",
+      "skillPath": "skills/mermaid-diagrams/SKILL.md",
+      "skillFolderHash": "1b7a962715838d762fe4b34701d797d1d57496cd",
+      "installedAt": "2026-02-24T13:24:24.938Z",
+      "updatedAt": "2026-02-24T13:24:24.938Z"
     }
   },
   "dismissed": {
