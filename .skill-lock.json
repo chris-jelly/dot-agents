@@ -9,6 +9,33 @@
       "skillFolderHash": "c2f31172b6f256272305a5e6e7228b258446899f",
       "installedAt": "2026-02-24T00:16:51.134Z",
       "updatedAt": "2026-02-24T00:17:25.481Z"
+    },
+    "crafting-effective-readmes": {
+      "source": "softaworks/agent-toolkit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/softaworks/agent-toolkit.git",
+      "skillPath": "skills/crafting-effective-readmes/SKILL.md",
+      "skillFolderHash": "72e2a4d89c5a14b762cfc58e3bbd7fd63e9642b0",
+      "installedAt": "2026-02-24T03:11:45.145Z",
+      "updatedAt": "2026-02-24T03:11:45.145Z"
+    },
+    "systematic-debugging": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/systematic-debugging/SKILL.md",
+      "skillFolderHash": "828c239ac986cc1fc7edd10292f66e4a3640e9c0",
+      "installedAt": "2026-02-24T03:25:25.113Z",
+      "updatedAt": "2026-02-24T03:25:25.113Z"
+    },
+    "using-superpowers": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/using-superpowers/SKILL.md",
+      "skillFolderHash": "2a7f5982368c25f5352a5be2d10ad9a753334226",
+      "installedAt": "2026-02-24T03:25:46.067Z",
+      "updatedAt": "2026-02-24T03:25:46.067Z"
     }
   },
   "dismissed": {
