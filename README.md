@@ -2,6 +2,12 @@
 
 Central, version-controlled repository for managing AI agent skills across multiple agents (OpenCode, Codex).
 
+**This repository is designed to be cloned directly as `~/.agents`:**
+
+```sh
+git clone <repo-url> ~/.agents
+```
+
 ## Structure
 
 ```
