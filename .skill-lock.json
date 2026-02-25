@@ -72,6 +72,15 @@
       "skillFolderHash": "1b7a962715838d762fe4b34701d797d1d57496cd",
       "installedAt": "2026-02-24T13:24:24.938Z",
       "updatedAt": "2026-02-24T13:24:24.938Z"
+    },
+    "salesforce-developer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/salesforce-developer/SKILL.md",
+      "skillFolderHash": "f149807e3a6cac41b4276a46a2d7341c9e700ee1",
+      "installedAt": "2026-02-24T13:37:48.058Z",
+      "updatedAt": "2026-02-24T13:37:48.058Z"
     }
   },
   "dismissed": {
