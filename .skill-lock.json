@@ -81,6 +81,15 @@
       "skillFolderHash": "f149807e3a6cac41b4276a46a2d7341c9e700ee1",
       "installedAt": "2026-02-24T13:37:48.058Z",
       "updatedAt": "2026-02-24T13:37:48.058Z"
+    },
+    "writing-clearly-and-concisely": {
+      "source": "softaworks/agent-toolkit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/softaworks/agent-toolkit.git",
+      "skillPath": "skills/writing-clearly-and-concisely/SKILL.md",
+      "skillFolderHash": "4bb2d919b567277219f7a18358bd05e0a1679a77",
+      "installedAt": "2026-03-08T18:36:14.563Z",
+      "updatedAt": "2026-03-08T18:36:14.563Z"
     }
   },
   "dismissed": {
@@ -88,6 +97,7 @@
   },
   "lastSelectedAgents": [
     "amp",
+    "cline",
     "codex",
     "cursor",
     "gemini-cli",
