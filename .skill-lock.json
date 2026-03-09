@@ -90,6 +90,15 @@
       "skillFolderHash": "4bb2d919b567277219f7a18358bd05e0a1679a77",
       "installedAt": "2026-03-08T18:36:14.563Z",
       "updatedAt": "2026-03-08T18:36:14.563Z"
+    },
+    "playwright-best-practices": {
+      "source": "currents-dev/playwright-best-practices-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/currents-dev/playwright-best-practices-skill.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "0752275e89ed23655fe8e2b14bd45f8e8c17aec0",
+      "installedAt": "2026-03-09T21:57:52.546Z",
+      "updatedAt": "2026-03-09T21:57:52.546Z"
     }
   },
   "dismissed": {
