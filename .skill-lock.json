@@ -33,9 +33,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/obra/superpowers.git",
       "skillPath": "skills/using-superpowers/SKILL.md",
-      "skillFolderHash": "2a7f5982368c25f5352a5be2d10ad9a753334226",
+      "skillFolderHash": "9ff6cf6979d6afa62c3e5f6306b124df56afce31",
       "installedAt": "2026-02-24T03:25:46.067Z",
-      "updatedAt": "2026-02-24T03:25:46.067Z"
+      "updatedAt": "2026-03-12T12:45:52.407Z"
     },
     "git-commit": {
       "source": "github/awesome-copilot",
@@ -60,9 +60,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/github/awesome-copilot.git",
       "skillPath": "skills/github-issues/SKILL.md",
-      "skillFolderHash": "4dc94bd62efe7d80b4e33f09736be6a9733f307f",
+      "skillFolderHash": "44219c182a1435252a1751313b99fb0a79882bb5",
       "installedAt": "2026-02-24T03:29:45.301Z",
-      "updatedAt": "2026-02-24T03:29:45.301Z"
+      "updatedAt": "2026-03-12T12:45:55.379Z"
     },
     "mermaid-diagrams": {
       "source": "softaworks/agent-toolkit",
@@ -78,9 +78,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
       "skillPath": "skills/salesforce-developer/SKILL.md",
-      "skillFolderHash": "f149807e3a6cac41b4276a46a2d7341c9e700ee1",
+      "skillFolderHash": "bcb7f43b1c5f80bcb321f61f26365e9bef2df81d",
       "installedAt": "2026-02-24T13:37:48.058Z",
-      "updatedAt": "2026-02-24T13:37:48.058Z"
+      "updatedAt": "2026-03-12T12:45:57.905Z"
     },
     "writing-clearly-and-concisely": {
       "source": "softaworks/agent-toolkit",
@@ -96,9 +96,38 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/currents-dev/playwright-best-practices-skill.git",
       "skillPath": "SKILL.md",
-      "skillFolderHash": "0752275e89ed23655fe8e2b14bd45f8e8c17aec0",
+      "skillFolderHash": "b4b0fd3c6bc5b1d17f484877ddd7ed7c2ac04ff0",
       "installedAt": "2026-03-09T21:57:52.546Z",
-      "updatedAt": "2026-03-09T21:57:52.546Z"
+      "updatedAt": "2026-03-12T12:46:00.029Z"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/skill-creator/SKILL.md",
+      "skillFolderHash": "98a510d1cfef9f82c3b1eec200229ca68725e613",
+      "pluginName": "example-skills",
+      "installedAt": "2026-04-04T16:02:12.482Z",
+      "updatedAt": "2026-04-04T16:02:12.482Z"
+    },
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "skillFolderHash": "121eecacd86c0aab06aef5cd4663e80c5397cd41",
+      "installedAt": "2026-04-22T12:32:24.563Z",
+      "updatedAt": "2026-04-22T12:32:24.563Z"
+    },
+    "openai-docs": {
+      "source": "openai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/openai/skills.git",
+      "ref": "main",
+      "skillPath": "skills/.curated/openai-docs/SKILL.md",
+      "skillFolderHash": "06c63d1eeac52bb8d7e9b6c78fcf5f18fd382d72",
+      "installedAt": "2026-04-27T19:21:56.716Z",
+      "updatedAt": "2026-04-27T19:21:56.716Z"
     }
   },
   "dismissed": {
@@ -106,12 +135,17 @@
   },
   "lastSelectedAgents": [
     "amp",
+    "antigravity",
     "cline",
     "codex",
     "cursor",
+    "deepagents",
+    "firebender",
     "gemini-cli",
     "github-copilot",
     "kimi-cli",
-    "opencode"
+    "opencode",
+    "warp",
+    "pi"
   ]
 }
