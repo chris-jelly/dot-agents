@@ -6,9 +6,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/skills.git",
       "skillPath": "skills/find-skills/SKILL.md",
-      "skillFolderHash": "c2f31172b6f256272305a5e6e7228b258446899f",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
       "installedAt": "2026-02-24T00:16:51.134Z",
-      "updatedAt": "2026-02-24T00:17:25.481Z"
+      "updatedAt": "2026-04-27T19:26:58.790Z"
     },
     "crafting-effective-readmes": {
       "source": "softaworks/agent-toolkit",
@@ -24,18 +24,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/obra/superpowers.git",
       "skillPath": "skills/systematic-debugging/SKILL.md",
-      "skillFolderHash": "828c239ac986cc1fc7edd10292f66e4a3640e9c0",
+      "skillFolderHash": "e96f5f2620c17069d668be1880d5492e34c84ceb",
       "installedAt": "2026-02-24T03:25:25.113Z",
-      "updatedAt": "2026-02-24T03:25:25.113Z"
+      "updatedAt": "2026-05-23T13:31:33.456Z"
     },
     "using-superpowers": {
       "source": "obra/superpowers",
       "sourceType": "github",
       "sourceUrl": "https://github.com/obra/superpowers.git",
       "skillPath": "skills/using-superpowers/SKILL.md",
-      "skillFolderHash": "9ff6cf6979d6afa62c3e5f6306b124df56afce31",
+      "skillFolderHash": "225dd70596c396940ff158335a954a64d93ece40",
       "installedAt": "2026-02-24T03:25:46.067Z",
-      "updatedAt": "2026-03-12T12:45:52.407Z"
+      "updatedAt": "2026-05-23T13:31:34.713Z"
     },
     "git-commit": {
       "source": "github/awesome-copilot",
@@ -60,9 +60,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/github/awesome-copilot.git",
       "skillPath": "skills/github-issues/SKILL.md",
-      "skillFolderHash": "44219c182a1435252a1751313b99fb0a79882bb5",
+      "skillFolderHash": "95fb5bd16c2cecb7c14c58d7e902a91daae2ec5e",
       "installedAt": "2026-02-24T03:29:45.301Z",
-      "updatedAt": "2026-03-12T12:45:55.379Z"
+      "updatedAt": "2026-05-23T13:31:42.690Z"
     },
     "mermaid-diagrams": {
       "source": "softaworks/agent-toolkit",
@@ -78,9 +78,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
       "skillPath": "skills/salesforce-developer/SKILL.md",
-      "skillFolderHash": "bcb7f43b1c5f80bcb321f61f26365e9bef2df81d",
+      "skillFolderHash": "733b10c7e0dc50bf6f865516c5e952bb12ba0fdf",
       "installedAt": "2026-02-24T13:37:48.058Z",
-      "updatedAt": "2026-03-12T12:45:57.905Z"
+      "updatedAt": "2026-05-23T13:31:44.424Z"
     },
     "writing-clearly-and-concisely": {
       "source": "softaworks/agent-toolkit",
@@ -96,28 +96,27 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/currents-dev/playwright-best-practices-skill.git",
       "skillPath": "SKILL.md",
-      "skillFolderHash": "b4b0fd3c6bc5b1d17f484877ddd7ed7c2ac04ff0",
+      "skillFolderHash": "ef329e7e65149918e1ff0eed2cf7d2e6e6f9eb5b",
       "installedAt": "2026-03-09T21:57:52.546Z",
-      "updatedAt": "2026-03-12T12:46:00.029Z"
+      "updatedAt": "2026-04-27T19:27:02.215Z"
     },
     "skill-creator": {
       "source": "anthropics/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/anthropics/skills.git",
       "skillPath": "skills/skill-creator/SKILL.md",
-      "skillFolderHash": "98a510d1cfef9f82c3b1eec200229ca68725e613",
-      "pluginName": "example-skills",
+      "skillFolderHash": "3cf9a8db32597ba3e24b584a3d696f4e11c7d7b6",
       "installedAt": "2026-04-04T16:02:12.482Z",
-      "updatedAt": "2026-04-04T16:02:12.482Z"
+      "updatedAt": "2026-04-27T19:27:04.522Z"
     },
     "agent-browser": {
       "source": "vercel-labs/agent-browser",
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
       "skillPath": "skills/agent-browser/SKILL.md",
-      "skillFolderHash": "121eecacd86c0aab06aef5cd4663e80c5397cd41",
+      "skillFolderHash": "c1470a475a0472fceda2401ea6763708a91680a8",
       "installedAt": "2026-04-22T12:32:24.563Z",
-      "updatedAt": "2026-04-22T12:32:24.563Z"
+      "updatedAt": "2026-05-23T13:31:45.590Z"
     },
     "openai-docs": {
       "source": "openai/skills",
