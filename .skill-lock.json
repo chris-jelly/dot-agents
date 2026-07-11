@@ -6,9 +6,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/skills.git",
       "skillPath": "skills/find-skills/SKILL.md",
-      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
       "installedAt": "2026-02-24T00:16:51.134Z",
-      "updatedAt": "2026-04-27T19:26:58.790Z"
+      "updatedAt": "2026-07-11T15:21:26.550Z"
     },
     "crafting-effective-readmes": {
       "source": "softaworks/agent-toolkit",
@@ -24,18 +24,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/obra/superpowers.git",
       "skillPath": "skills/systematic-debugging/SKILL.md",
-      "skillFolderHash": "e96f5f2620c17069d668be1880d5492e34c84ceb",
+      "skillFolderHash": "5702624a1f0e5ad478234442ce5cde038a525465",
       "installedAt": "2026-02-24T03:25:25.113Z",
-      "updatedAt": "2026-05-23T13:31:33.456Z"
+      "updatedAt": "2026-07-11T15:21:28.111Z"
     },
     "using-superpowers": {
       "source": "obra/superpowers",
       "sourceType": "github",
       "sourceUrl": "https://github.com/obra/superpowers.git",
       "skillPath": "skills/using-superpowers/SKILL.md",
-      "skillFolderHash": "225dd70596c396940ff158335a954a64d93ece40",
+      "skillFolderHash": "8528440d6778e041cb1b9a0ada13f9f3cecda663",
       "installedAt": "2026-02-24T03:25:46.067Z",
-      "updatedAt": "2026-05-23T13:31:34.713Z"
+      "updatedAt": "2026-07-11T15:21:29.920Z"
     },
     "git-commit": {
       "source": "github/awesome-copilot",
@@ -45,15 +45,6 @@
       "skillFolderHash": "883a6a7466f55a9cd9f22cf1cce2d9333fc9b998",
       "installedAt": "2026-02-24T03:29:45.176Z",
       "updatedAt": "2026-02-24T03:29:45.176Z"
-    },
-    "gh-cli": {
-      "source": "github/awesome-copilot",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/github/awesome-copilot.git",
-      "skillPath": "skills/gh-cli/SKILL.md",
-      "skillFolderHash": "437437f7f20bcdbbdb3081cf164435a388c0a39a",
-      "installedAt": "2026-02-24T03:29:45.250Z",
-      "updatedAt": "2026-02-24T03:29:45.250Z"
     },
     "github-issues": {
       "source": "github/awesome-copilot",
@@ -114,9 +105,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
       "skillPath": "skills/agent-browser/SKILL.md",
-      "skillFolderHash": "c1470a475a0472fceda2401ea6763708a91680a8",
+      "skillFolderHash": "9b31e495b887e4ca123960415eca69fc7e1bba28",
       "installedAt": "2026-04-22T12:32:24.563Z",
-      "updatedAt": "2026-05-23T13:31:45.590Z"
+      "updatedAt": "2026-07-11T15:21:31.330Z"
     },
     "openai-docs": {
       "source": "openai/skills",
@@ -124,9 +115,9 @@
       "sourceUrl": "https://github.com/openai/skills.git",
       "ref": "main",
       "skillPath": "skills/.curated/openai-docs/SKILL.md",
-      "skillFolderHash": "06c63d1eeac52bb8d7e9b6c78fcf5f18fd382d72",
+      "skillFolderHash": "8d6942d62878ca60e546a1fc66b5e8f461954545",
       "installedAt": "2026-04-27T19:21:56.716Z",
-      "updatedAt": "2026-04-27T19:21:56.716Z"
+      "updatedAt": "2026-07-11T15:21:32.906Z"
     }
   },
   "dismissed": {
@@ -135,16 +126,17 @@
   "lastSelectedAgents": [
     "amp",
     "antigravity",
+    "antigravity-cli",
     "cline",
     "codex",
     "cursor",
     "deepagents",
-    "firebender",
     "gemini-cli",
     "github-copilot",
-    "kimi-cli",
+    "kimi-code-cli",
     "opencode",
     "warp",
+    "zed",
     "pi"
   ]
 }
